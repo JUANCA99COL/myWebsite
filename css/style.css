@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.nav {
+  width: 100%;
+  height: 120px;
+  /* border: 1px solid blue; */
+}
+
+.nav ul {
+  margin-top: 45px;
+  /* border: 1px solid green; */
+}
+
+.nav li {
+  display: inline;
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.nav a:hover {
+	color: orange;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu {
+  font-size: 40px;
+  margin: 45px 40px 0px 60px;
+  float: right;
+  cursor: pointer;
+
+}
+
+.logo {
+	width: 120px;
+	/* border: 1px solid red; */
+	margin-left: 20px;
+}
+
+
+.menu:hover {
+  color: orange;
+}
+
+
+.logo-con {
+  width: 35%;
+  /* border: 1px solid blue; */
+}
+
+.ul-con {
+  /* border: 1px solid red; */
+  width: 65%;
+}
+
+.sec-nav {
+  /* float: right; */
+  width: 100%;
+  height: 550px;
+  border: 1px solid black;
+	background: black;
+}
+
+.sec-nav ul {
+  list-style: none;
+  text-align: center;
+  line-height: 80px;
+}
+
+.sec-nav a {
+  text-decoration: none;
+  font-size: 40px;
+  color: white;
+}
+
+.sec-nav a:hover {
+	background: white;
+	color: black;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+.porshe-img {
+	width: 100%;
+}
+
+.lol {
+	/* border: 1px solid blue; */
+	margin: 20px auto;
+	display: block;
+	width: 400px;
+}
+
+.lol2 {
+	/* border: 1px solid blue; */
+	margin: 20px auto;
+	display: block;
+}
+
+.face {
+	font-size: 50px;
+	color: white;
+	position: absolute;
+	left: 43%;
+	cursor: pointer;
+}
+
+.insta {
+	font-size: 50px;
+	color: white;
+	position: absolute;
+	left: 49%;
+	cursor: pointer;
+}
+
+.mail {
+	font-size: 50px;
+	color: white;
+	position: absolute;
+	left: 55%;
+	cursor: pointer;
+}
+
+.para-contact {
+	font-size: 30px;
+}
+
+.mail2 {
+	font-size: 50px;
+	color: black;
+	margin: 5px;
+}
+
+.face2 {
+	font-size: 50px;
+	color: black;
+	margin: 5px;
+
+}
+
+.insta2 {
+	font-size: 50px;
+	color: black;
+	margin: 5px;
+
+}
+
+.web:hover {
+	background: orange;
+}
+
+.graph-con {
+	background: black;
+}
+
+.mockUps {
+	width: 80%;
+	margin: 10%;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 891px) and (min-width: 320px)  {
+  .ul-con {
+    display: none;
+  }
+
+  .logo-con {
+    width: 100%;
+  }
+
+	.lol, .lol2 {
+		width: 200px;
+	}
+
+	.face {
+		font-size: 50px;
+		color: white;
+		position: absolute;
+		left: 30%;
+	}
+
+	.insta {
+		font-size: 50px;
+		color: white;
+		position: absolute;
+		left: 45%;
+	}
+
+	.mail {
+		font-size: 50px;
+		color: white;
+		position: absolute;
+		left: 60%;
+	}
+
+	.mail2 {
+		font-size: 50px;
+		color: black;
+		margin: 5px;
+	}
+
+	.face2 {
+		font-size: 50px;
+		color: black;
+		margin: 5px;
+
+	}
+
+	.insta2 {
+		font-size: 50px;
+		color: black;
+		margin: 5px;
+
+	}
+
+	.para-contact {
+		font-size: 20px;
+	}
+
+}
