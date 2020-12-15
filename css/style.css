@@ -1,12 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-body {
-	font-family: 'Montserrat', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
 
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+h1,
+h2 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+html {
+	 scroll-behavior: smooth;
 }
 
 
@@ -16,8 +22,17 @@ body {
   /* border: 1px solid blue; */
 }
 
+.for-icons {
+	width: 20%;
+}
+
+.ul-con {
+	width: 80%;
+}
+
 .nav ul {
   margin-top: 45px;
+	margin-left: 65px;
   /* border: 1px solid green; */
 }
 
@@ -38,77 +53,54 @@ body {
   color: black;
 }
 
-.menu {
-  font-size: 40px;
-  margin: 45px 40px 0px 60px;
-  float: right;
-  cursor: pointer;
-
-}
-
 .logo {
-	width: 120px;
-	/* border: 1px solid red; */
-	margin-left: 20px;
+	width: 90px;
+	margin: 5px;
+	margin-top: 13px;
 }
 
 
-.menu:hover {
-  color: orange;
+.menu {
+	font-size: 50px;
+	cursor: pointer;
 }
 
 
-.logo-con {
-  width: 35%;
-  /* border: 1px solid blue; */
+.contacText h1, h3 {
+	color: black;
 }
 
-.ul-con {
-  /* border: 1px solid red; */
-  width: 65%;
+
+.hero-image {
+  background-image: url("../img/web-bck.jpg");
+  background-color: #cccccc;
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-.sec-nav {
-  /* float: right; */
-  width: 100%;
-  height: 550px;
-  border: 1px solid black;
-	background: black;
-}
-
-.sec-nav ul {
-  list-style: none;
+.hero-text {
   text-align: center;
-  line-height: 80px;
-}
-
-.sec-nav a {
-  text-decoration: none;
-  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
 }
 
-.sec-nav a:hover {
-	background: white;
-	color: black;
-	border-radius: 25px;
-	padding: 10px;
-}
-
-.porshe-img {
-	width: 100%;
-}
 
 .lol {
 	/* border: 1px solid blue; */
-	margin: 20px auto;
+	margin: 75px auto;
 	display: block;
 	width: 400px;
 }
 
 .lol2 {
 	/* border: 1px solid blue; */
-	margin: 20px auto;
+  margin: 75px auto;
 	display: block;
 }
 
@@ -165,7 +157,7 @@ body {
 }
 
 .graph-con {
-	background: black;
+	background: #FCDE9F;
 }
 
 .mockUps {
@@ -173,23 +165,136 @@ body {
 	margin: 10%;
 }
 
+.mockUps3 {
+	width: 80%;
+	margin: 10%;
+}
+
+.mockUps:hover {
+	border: 3px solid orange;
+}
+
+.myButtons {
+	width: 120px;
+	height: 50px;
+	padding: 5px;
+	border-radius: 45px;
+	background: black;
+	color: white;
+	margin-left: 48px;
+	text-decoration: none;
+}
+
+.myButtons2 {
+	width: 120px;
+	height: 50px;
+	padding: 5px;
+	background: none;
+	border: 1px solid black;
+	border-radius: 45px;
+	color: black;
+}
+
+.myButtons2:hover {
+	background: black;
+	color: white;
+	text-decoration: none;
+}
+
+.myButtons:hover {
+	background: none;
+	color: orange;
+	border: 1px solid orange;
+	text-decoration: none;
+}
+
+.subHeaders {
+	margin-top: 100px;
+	margin-bottom: -20px;
+	margin-left: 50px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.subHeaders2 {
+	margin-top: 11px;
+	margin-bottom: -20px;
+	margin-left: 8px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.paraDesign {
+	font-size: 20px;
+}
+
+
+.profileImage {
+	width: 65%;
+}
+
+/* //CURTAIN// */
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.overlay {overflow-y: auto;}
+.overlay a {font-size: 20px}
+.overlay .closebtn {
+font-size: 40px;
+top: 15px;
+right: 35px;
+}
 
 
 
 
 
-
-@media only screen and (max-width: 891px) and (min-width: 320px)  {
+@media only screen and (max-width: 1040px) and (min-width: 320px)  {
   .ul-con {
     display: none;
   }
 
-  .logo-con {
-    width: 100%;
-  }
-
 	.lol, .lol2 {
-		width: 200px;
+		width: 270px;
 	}
 
 	.face {
@@ -236,5 +341,45 @@ body {
 	.para-contact {
 		font-size: 20px;
 	}
+
+	.mockContainer h2, p {
+		text-align: center;
+	}
+
+	.mockContainer {
+		height: 450px;
+	}
+
+	.myButtons {
+		margin: auto;
+		display: block;
+	}
+
+	.subHeaders {
+		text-align: center;
+		margin-left: 0px;
+	}
+
+	.paraDesign {
+		font-size: 15px;
+	}
+
+	.mockFinalContainer {
+		height: 450px;
+	}
+
+
+	.mockUps3 {
+		margin-top: 98px;
+	}
+
+	.for-icons {
+		width: 100%;
+	}
+
+	.menu {
+		float: right;
+	}
+
 
 }

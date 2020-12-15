@@ -10,149 +10,122 @@
     <title>mywebsite</title>
   </head>
   <body>
-    <div class="nav">
+    <div class="nav clearfix">
+
       <div class="ul-con">
           <ul>
             <li>
-              <a href="#web-design">WORK</a>
-            </li>
-            <li>
-              <a href="#">CONTACT</a>
+              <a href="#web-design">WEB DESIGN</a>
             </li>
             <li>
               <a href="#about-me">ABOUT ME</a>
             </li>
-            <li>
-              <a href="#">SKILLS</a>
-            </li>
           </ul>
-        </div>
+      </div>
 
-        <div class="logo-con">
-          <img  class="logo" src="img/logo.jpg" alt="">
-          <i class="menu fas fa-bars"></i>
-        </div>
+      <div class="for-icons">
+        <img  class="logo mr-5" src="img/logo.jpg" alt="">
+        <span class="menu mr-5 mt-4" onclick="openNav()">&#9776;</span>
+      </div>
+
 
       </div>
 
-      <div id="sec-nav" class="sec-nav">
-        <ul>
-          <li class="pt-5">
-            <a href="#">WORK</a>
-          </li>
-          <li>
-            <a href="#">CONTACT</a>
-          </li>
-          <li>
-            <a href="#about-me">ABOUT ME</a>
-          </li>
-          <li>
-            <a href="#">SKILLS</a>
-          </li>
-        </ul>
+
+
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#about-me">ABOUT ME</a>
+              <a href="#web-design">WEB DESIGN</a>
+            </div>
+          </div>
+
           <div class="socials">
-            <a href="https://www.facebook.com/juan.caro.58118774"><i class="face fab fa-facebook-square"></i></a>
-            <a href="https://www.instagram.com/juankcaro/"><i class="insta fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/juan.caro.58118774" target="_blank"><i class="face fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/juankcaro/" target="_blank"><i class="insta fab fa-instagram"></i></a>
             <a href="mailto: jcamilocarorodriguez@gmail.com"><i class="mail fas fa-envelope-square"></i></a>
           </div>
       </div>
 
-      <!-- <div class="my-5 container">
-        <h1 class="text-center p-5 font-weight-bold">WELCOME</h1>
-        <img class="porshe-img" src="img/work-img.jpg" alt="">
-      </div> -->
+      <section id="contact">
+        <div class="hero-image">
+        <div class="bg-light contacText  p-5 hero-text">
+          <h1 style="font-size:50px">Hi there!!</h1>
+          <h3 class="mt-4 mb-4">I'm Juan and I develope complex interface systems for web and mobile </h3>
+          <a class="px-4 py-3 myButtons2" href="mailto: jcamilocarorodriguez@gmail.com">HIRE ME</a>
+        </div>
+      </div>
+      </section>
 
       <section class="" id="web-design">
+
+        <h1 class="my-5 font-weight-bold text-center p-1">MY WEBSITES</h1>
           <div class="row clearfix">
 
             <div class="col-lg-6 col-sm-12">
+              <a href="https://juanca99col.github.io/summative/" target="_blank">
               <img class="mockUps" src="img/mock-up1.jpg" alt="">
+              </a>
+            </div>
+
+            <div class="mockContainer col-lg-6 col-sm-12">
+              <h2 class="subHeaders">Environmental Web </h2>
+              <p class="p-4 m-4">
+                This website was designed for the department of conservation of New Zealand, my intention was to showcase their goals and
+                future vision on nature and their recreational parks. Their goal is for New Zealand to be the greatest living space on Earth
+                This means ensuring that New Zealanders gain a wide range of benefits from healthy functioning ecosystems and recreation opportunities.
+              </p>
+                <a href="https://juanca99col.github.io/summative/" target="_blank">
+                  <button class="myButtons" type="button" name="button">SHOW ME</button>
+                </a>
             </div>
 
             <div class="col-lg-6 col-sm-12">
-              <h1 class="text-left m-5 p-5 font-weight-bold">WEB DESIGN</h1>
-              <p class="p-5 m-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente numquam tempore magnam earum dolor quia nostrum nesciunt, at, perferendis expedita, voluptatem quos assumenda molestias recusandae unde? Fugit, consectetur, eaque. Quo.</p>
+              <a href="https://juanca99col.github.io/gym.github.io/" target="_blank">
+              <img class="mockUps3" src="img/mock-up2.png" alt="">
+              </a>
+            </div>
+
+            <div class="mockContainer col-lg-6 col-sm-12">
+              <h2 class="subHeaders">Club K - Gym Web</h2>
+              <p class="p-4 m-4">
+                This website was designed for Club K, Club K is a gym in Wellington that allows their customers to book squash classes and
+                workout in their facilities. the overall look of the official website needed a more modern and fresh look for their viewers, therefore I changed the layout making it look
+                cleaner and simple to use.
+
+              </p>
+              <a href="https://juanca99col.github.io/gym.github.io/" target="_blank">
+                <button class="myButtons" type="button" name="button">SHOW ME</button>
+              </a>
             </div>
 
             <div class="col-lg-6 col-sm-12">
-              <img class="mockUps" src="img/mock-up2.png" alt="">
-            </div>
-
-            <div class="col-lg-6 col-sm-12">
-              <h1 class="text-left m-5 p-5 font-weight-bold">WEB DESIGN</h1>
-              <p class="p-5 m-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente numquam tempore magnam earum dolor quia nostrum nesciunt, at, perferendis expedita, voluptatem quos assumenda molestias recusandae unde? Fugit, consectetur, eaque. Quo.</p>
-            </div>
-
-            <div class="col-lg-6 col-sm-12">
+              <a href="https://juanca99col.github.io/cars.github.io-/" target="_blank">
               <img class="mockUps" src="img/mock-up3.png" alt="">
+              </a>
             </div>
 
-            <div class="col-lg-6 col-sm-12">
-              <h1 class="text-left m-5 p-5 font-weight-bold">WEB DESIGN</h1>
-              <p class="p-5 m-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente numquam tempore magnam earum dolor quia nostrum nesciunt, at, perferendis expedita, voluptatem quos assumenda molestias recusandae unde? Fugit, consectetur, eaque. Quo.</p>
-            </div>
-            <!-- <div class="col-lg-4 col-sm-12">
-              <a href="https://juanca99col.github.io/cars.github.io-/">
-              <img class="web mt-2 img-thumbnail" src="img/cars.jpg" alt="">
+            <div class="mockFinalContainer col-lg-6 col-sm-12">
+              <h2 class="subHeaders">Motor - Car Web</h2>
+              <p class="p-4 m-4">
+                This website was designed for young car enthusiast who want to know more about street racing,
+                and different classic car models, with detailed information in terms of speed, horse power and history.
+              </p>
+              <a href="https://juanca99col.github.io/cars.github.io-/" target="_blank">
+              <button class="myButtons" type="button" name="button">SHOW ME</button>
               </a>
-              <h2 class="mt-3 font-weight-bold text-center">CARS</h2>
-              <h3 class="text-center">using: Bootstrap & js</h3>
-            </div> -->
-
-            <!-- <div class="col-lg-4 col-sm-12">
-              <a href="https://juanca99col.github.io/gym.github.io/">
-                <img class="web mt-2 img-thumbnail" src="img/gym.jpg" alt="">
-              </a>
-              <h2 class="mt-3 font-weight-bold text-center">GYM</h2>
-              <h3 class="text-center">using: css, html, js</h3>
             </div>
 
-            <div class="col-lg-4 col-sm-12">
-              <a href="https://juanca99col.github.io/summative/">
-                <img class="web mt-2 img-thumbnail" src="img/env.jpg" alt="">
-              </a>
-              <h2 class="mt-3 font-weight-bold text-center">ENVIRONMENTAL</h2>
-              <h3 class="text-center">using: html, sass, mixins, js</h3>
-            </div> -->
           </div>
       </section>
 
-      <section class="graph-con" id="graphic-design">
-        <h1 class="text-center font-weight-bold text-white p-5">GRAPHIC DESIGN</h1>
-        <div class="row clearfix">
-          <div class="col-lg-6 col-sm-12">
-            <img class="lol" src="img/mock-up.jpg" alt="">
-          </div>
 
-          <div class="col-lg-6 col-sm-12">
-            <!-- <img class="lol2" src="img/sketches.jpg" alt=""> -->
-            <h1 class="text-white text-left m-5 p-5 font-weight-bold">WEB DESIGN</h1>
-            <p class="text-white p-5 m-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente numquam tempore magnam earum dolor quia nostrum nesciunt, at, perferendis expedita, voluptatem quos assumenda molestias recusandae unde? Fugit, consectetur, eaque. Quo.</p>
-          </div>
-        </div>
-
-        <div class="row clearfix">
-          <div class="col-lg-6 col-sm-12">
-            <img class="mb-5 lol2" src="img/sketches.jpg" alt="">
-          </div>
-
-          <div class="col-lg-6 col-sm-12">
-            <h1 class="text-white text-left m-5 p-5 font-weight-bold">WEB DESIGN</h1>
-            <p class="text-white p-5 m-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente numquam tempore magnam earum dolor quia nostrum nesciunt, at, perferendis expedita, voluptatem quos assumenda molestias recusandae unde? Fugit, consectetur, eaque. Quo.</p>
-            <!-- <img class="lol2" src="img/sketches.jpg" alt=""> -->
-          </div>
-        </div>
-        <!-- <img class="lol" src="img/branding.jpg" alt="">
-        <img class="lol" src="img/parkour.jpg" alt=""> -->
-      </section>
-
-
-      <section class="container" id="about-me">
+      <section class="container mb-2" id="about-me">
         <h1 class="text-center p-5 font-weight-bold mt-5">ABOUT ME</h1>
-        <div class="row clearfix">
 
           <div class="col-lg-12 col-sm-12">
-            <p class="p-3 para-contact">
+            <p class="text-center p-3 para-contact">
                 Hi there!! I'm a Web Designer
                 and Illustrator based in New Zealand.
                 I love to design websites for a diverse range of subjects
@@ -160,18 +133,25 @@
                 all with a clean and elegant aesthetic.
             </p>
 
-          <div class="p-3">
-            <h2>Let’s work together.</h2>
-            <a href="mailto: jcamilocarorodriguez@gmail.com"><i class="mail2 fas fa-envelope-square"></i></a>
-            <a href="https://www.facebook.com/juan.caro.58118774"><i class="face2 fab fa-facebook-square"></i></a>
-            <a href="https://www.instagram.com/juankcaro/"><i class="insta2 fab fa-instagram"></i></a>
-          </div>
-
+            <img class="d-block m-auto img-thumbnail profileImage" src="img/profile.jpeg" alt="">
 
           </div>
 
-        </div>
       </section>
+
+      <div class="">
+        <h2 class="text-center">Let’s work together.</h2>
+        <div class="text-center">
+          <a href="mailto: jcamilocarorodriguez@gmail.com"><i class="mail2 fas fa-envelope-square"></i></a>
+          <a href="https://www.facebook.com/juan.caro.58118774" target="_blank"><i class="face2 fab fa-facebook-square"></i></a>
+          <a href="https://www.instagram.com/juankcaro/" target="_blank"><i class="insta2 fab fa-instagram mb-5"></i></a>
+        </div>
+      </div>
+
+
+
+
+
 
 
 
